@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=🚀+Full+Stack+Developer;💡+AI+%26+Innovation+Enthusiast;🌐+Digital+Solutions+Architect;⚡+Problem+Solver+%26+Creator" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=🚀+AI+Engineer+%40+Visiondrill;💡+Tech+Mentor+%40+Tech+Hut;🤖+Automation+%26+AI+Specialist;⚡+Empowering+Youth+in+Tech" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -22,16 +22,18 @@
 
 <div align="center">
   
-### 🌈 **Digital Craftsman & Innovation Catalyst**
+### ⚡ **AI Engineer & Tech Mentor**
 
 </div>
 
-I'm a passionate developer who believes in the power of technology to transform lives and solve real-world problems. My journey spans across multiple domains, from crafting elegant web experiences to building intelligent systems that make a difference.
+**AI Engineer @ Visiondrill** | **Tech Mentor @ Tech Hut Community**
 
-- 🎯 **Current Focus**: Building scalable web applications and exploring AI integration
-- 💼 **Mission**: Creating digital solutions that empower communities and drive innovation
-- 🌍 **Vision**: Bridging technology gaps and making tech accessible to everyone
-- 🚀 **Passion**: Continuous learning and pushing the boundaries of what's possible
+I'm architecting the future through intelligent automation and AI-powered solutions. My expertise lies in building sophisticated systems that transform complex business processes into seamless, automated workflows. As part of the Tech Hut community, I'm passionate about empowering the next generation of developers and bridging the tech skills gap.
+
+**🎯 Expertise Focus** → Intelligent automation systems and AI integration  
+**💼 Core Mission** → Building scalable AI solutions that revolutionize business operations  
+**🌍 Community Impact** → Mentoring ambitious youth to achieve their tech aspirations  
+**🚀 Innovation Drive** → Pushing the boundaries of what's possible with AI and automation
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider">
@@ -41,38 +43,40 @@ I'm a passionate developer who believes in the power of technology to transform 
 
 <div align="center">
 
-### 🌐 **Frontend Mastery**
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+### 🤖 **AI & Automation Mastery**
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/LangFlow-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="LangFlow"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+<img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+
+### ⚡ **Automation & Integration**
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
+<img src="https://img.shields.io/badge/Make-6366F1?style=for-the-badge&logo=integromat&logoColor=white" alt="Make"/>
+<img src="https://img.shields.io/badge/VAPI-FF6B6B?style=for-the-badge&logo=v&logoColor=white" alt="VAPI"/>
+<img src="https://img.shields.io/badge/Eleven_Labs-000000?style=for-the-badge&logo=audio&logoColor=white" alt="Eleven Labs"/>
+<img src="https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white" alt="Zapier"/>
+
+### 🌐 **Web Development**
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-
-### ⚙️ **Backend Power**
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
-<img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
 
 ### 🗄️ **Database & Storage**
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" alt="Pinecone"/>
 
-### 🚀 **DevOps & Cloud**
+### 🚀 **Cloud & DevOps**
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"/>
-
-### 🧠 **AI & Machine Learning**
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit Learn"/>
+<img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway"/>
 
 </div>
 
@@ -80,75 +84,7 @@ I'm a passionate developer who believes in the power of technology to transform 
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider">
 </div>
 
-## 🌟 Featured Projects
 
-<div align="center">
-  <h3>🎨 **Building Digital Experiences That Matter**</h3>
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="350" alt="Projects Animation"/>
-</div>
-
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <div>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Macharia&repo=portfolio-website&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF" alt="Portfolio"/>
-      </div>
-      <br>
-      <div>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-        <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
-      </div>
-      <p><strong>🎨 Interactive Portfolio Website</strong><br>A stunning, responsive portfolio showcasing my work with smooth animations and modern design principles.</p>
-    </td>
-    <td align="center" width="50%">
-      <div>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Macharia&repo=e-commerce-platform&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF" alt="E-commerce"/>
-      </div>
-      <br>
-      <div>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
-        <img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
-      </div>
-      <p><strong>🛍️ Full-Stack E-commerce Platform</strong><br>Complete e-commerce solution with payment integration, inventory management, and admin dashboard.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <div>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Macharia&repo=ai-chat-application&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF" alt="AI Chat"/>
-      </div>
-      <br>
-      <div>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
-        <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square&logo=websocket&logoColor=white" alt="WebSocket"/>
-      </div>
-      <p><strong>🤖 AI-Powered Chat Application</strong><br>Real-time chat application with AI integration, featuring natural language processing and intelligent responses.</p>
-    </td>
-    <td align="center" width="50%">
-      <div>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mr-Macharia&repo=task-management-app&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&icon_color=00D4FF" alt="Task Management"/>
-      </div>
-      <br>
-      <div>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      </div>
-      <p><strong>📋 Collaborative Task Management</strong><br>Feature-rich task management platform with team collaboration, real-time updates, and project analytics.</p>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider">
-</div>
 
 ## 📊 GitHub Analytics
 
@@ -183,26 +119,25 @@ I'm a passionate developer who believes in the power of technology to transform 
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider">
 </div>
 
-## 🌈 What's Next?
+## 🔥 What Drives Me
 
 <div align="center">
   <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="300" alt="Innovation Animation"/>
 </div>
 
-### 🚀 **Current Adventures**
+### ⚡ **Innovation in Motion**
 
-- 🎯 **Learning**: Exploring advanced AI/ML techniques and cloud architecture
-- 🔧 **Building**: Next-generation web applications with cutting-edge technologies
-- 🌍 **Contributing**: Open-source projects that make a positive impact
-- 📚 **Sharing**: Knowledge through blogs, tutorials, and community engagement
-- 🤝 **Collaborating**: With fellow developers on innovative solutions
+**🎯 Engineering Excellence** → Architecting intelligent systems that transform business workflows  
+**🤖 AI Integration** → Building conversational AI and voice-powered automation solutions  
+**🌟 Mentorship Impact** → Empowering Tech Hut community members to achieve their tech dreams  
+**🔧 Automation Mastery** → Creating seamless integrations using cutting-edge no-code/low-code platforms  
 
-### 💡 **Future Horizons**
+### 💡 **Vision Forward**
 
-- 🧠 **AI Integration**: Building smarter, more intuitive applications
-- 🌐 **Web3 & Blockchain**: Exploring decentralized technologies
-- 📱 **Mobile Development**: Expanding into cross-platform mobile solutions
-- 🔮 **Innovation Labs**: Creating experimental projects and prototypes
+**🚀 Next-Gen Solutions** → Developing AI agents that revolutionize how businesses operate  
+**🌍 Community Growth** → Scaling mentorship programs to reach more aspiring developers  
+**🔮 Innovation Labs** → Experimenting with emerging AI technologies and automation frameworks  
+**💎 Tech Leadership** → Driving adoption of AI-first approaches in enterprise environments
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider">
@@ -231,32 +166,28 @@ I'm a passionate developer who believes in the power of technology to transform 
 </div>
 
 <div align="center">
-  <h3>🌟 Open to:</h3>
-  <img src="https://img.shields.io/badge/Collaboration-00D4FF?style=for-the-badge&logo=handshake&logoColor=white" alt="Collaboration"/>
-  <img src="https://img.shields.io/badge/Freelance%20Projects-FFD700?style=for-the-badge&logo=freelancer&logoColor=black" alt="Freelance"/>
-  <img src="https://img.shields.io/badge/Mentorship-FF6B6B?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="Mentorship"/>
-  <img src="https://img.shields.io/badge/Open%20Source-9B59B6?style=for-the-badge&logo=github&logoColor=white" alt="Open Source"/>
+  <h3>🌟 Available for:</h3>
+  <img src="https://img.shields.io/badge/AI%20Consultations-00D4FF?style=for-the-badge&logo=artificial-intelligence&logoColor=white" alt="AI Consultations"/>
+  <img src="https://img.shields.io/badge/Automation%20Solutions-FFD700?style=for-the-badge&logo=automation&logoColor=black" alt="Automation"/>
+  <img src="https://img.shields.io/badge/Tech%20Mentorship-FF6B6B?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="Mentorship"/>
+  <img src="https://img.shields.io/badge/AI%20Engineering-9B59B6?style=for-the-badge&logo=robot&logoColor=white" alt="AI Engineering"/>
 </div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider">
 </div>
 
-## 💭 Daily Inspiration
+## 💭 Philosophy
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it%2C%20it%27s%20bad.&author=Cory%20House&border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF" alt="Daily Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=The%20future%20belongs%20to%20those%20who%20understand%20that%20AI%20isn%27t%20just%20technology%2C%20it%27s%20empowerment.&author=Mr.%20Macharia&border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF" alt="Philosophy Quote"/>
 </div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider">
 </div>
 
-## 🎵 Currently Vibing To
 
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=mr-macharia&cover_image=true&theme=novatorem&show_offline=true&background_color=0d1117&interchange=true&bar_color=00d4ff&bar_color_cover=false" alt="Spotify"/>
-</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontAlignY=65&desc=Let%27s%20build%20something%20amazing%20together!&descAlignY=51&descAlign=62&animation=twinkling" alt="Footer"/>
