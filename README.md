@@ -1,7 +1,7 @@
 # Hello Techie!
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=35&duration=3000&pause=500&color=00F5FF&center=true&vCenter=true&width=800&height=100&lines=AI+Engineer+%40+Visiondrill;Tech+Hut+Mentorship+Creator;Empowering+Youth+in+Tech;AI+%26+Automation+Specialist;Building+Tomorrow's+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=35&duration=3000&pause=500&color=00F5FF&center=true&vCenter=true&width=800&height=100&lines=AI+Engineer;Empowering+Youth+in+Tech;AI+%26+Automation+Specialist;Building+Tomorrow's+Solutions" alt="Typing SVG" />
 </div>
 
 <div align="center">
