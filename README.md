@@ -26,7 +26,7 @@
 
 </div>
 
-**AI Engineer @ Visiondrill** | **Tech Mentor @ Tech Hut Community**
+**AI Engineer @ Visiondrill**
 
 I'm architecting the future through intelligent automation and AI-powered solutions. My expertise lies in building sophisticated systems that transform complex business processes into seamless, automated workflows. As part of the Tech Hut community, I'm passionate about empowering the next generation of developers and bridging the tech skills gap.
 
@@ -43,7 +43,7 @@ I'm architecting the future through intelligent automation and AI-powered soluti
 
 <div align="center">
 
-### 🤖 **AI & Automation Mastery**
+### 🤖 **AI & Automation**
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/>
 <img src="https://img.shields.io/badge/LangFlow-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="LangFlow"/>
