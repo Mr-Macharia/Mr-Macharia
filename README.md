@@ -148,7 +148,7 @@ I'm an AI Engineer, ML Engineer & Data Scientist with a dual background in **Str
   <a href="https://github.com/Mr-Macharia" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://gichogumacharia.com" target="_blank">
+  <a href="https://gichogumacharia.tech" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://wa.me/254101656882" target="_blank">
