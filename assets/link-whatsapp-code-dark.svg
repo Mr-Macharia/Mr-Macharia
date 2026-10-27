@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="40" viewBox="0 0 192 40" role="img" aria-label="WhatsApp · Code">
+<title>WhatsApp · Code</title>
+<style>
+text{font-family:'Host Grotesk','Georama','Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code','JetBrains Mono',SFMono-Regular,Consolas,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.ic *{transform-box:fill-box;transform-origin:center}
+.ic-user{animation:bob 4s ease-in-out infinite}
+@keyframes bob{0%,70%,100%{transform:none}80%{transform:translateY(-2px)}90%{transform:translateY(1px)}}
+.ic-grid rect{animation:pop 4s ease-in-out infinite}
+.ic-grid rect:nth-child(2){animation-delay:.12s}.ic-grid rect:nth-child(3){animation-delay:.24s}.ic-grid rect:nth-child(4){animation-delay:.36s}
+@keyframes pop{0%,70%,100%{transform:scale(1)}78%{transform:scale(.6)}86%{transform:scale(1.1)}}
+.ic-layers path:first-child{animation:lift 4s ease-in-out infinite}
+@keyframes lift{0%,65%,100%{transform:none}78%{transform:translateY(-3px)}}
+.ic-pulse path,.ic-voice path:last-child{stroke-dasharray:60;animation:draw 4s ease-in-out infinite}
+@keyframes draw{0%{stroke-dashoffset:60}45%,100%{stroke-dashoffset:0}}
+.ic-quote{animation:tilt 4s ease-in-out infinite}
+@keyframes tilt{0%,70%,100%{transform:none}78%{transform:rotate(-8deg)}88%{transform:rotate(5deg)}}
+.ic-send{animation:fly 4s ease-in-out infinite}
+@keyframes fly{0%,60%,100%{transform:none;opacity:1}72%{transform:translate(8px,-8px);opacity:0}73%{transform:translate(-8px,8px);opacity:0}86%{transform:none;opacity:1}}
+.ic-email path{animation:flap 4s ease-in-out infinite}
+@keyframes flap{0%,70%,100%{transform:none}80%{transform:scaleY(-1) translateY(2px)}}
+.ic-portfolio path{animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.ic-linkedin,.ic-plug,.ic-code{animation:nudge 4s ease-in-out infinite}
+@keyframes nudge{0%,70%,100%{transform:none}80%{transform:scale(.88)}90%{transform:scale(1.06)}}
+.ic-whatsapp,.ic-chat{animation:ring 4s ease-in-out infinite}
+@keyframes ring{0%,70%,100%{transform:none}74%{transform:rotate(-12deg)}78%{transform:rotate(10deg)}82%{transform:rotate(-6deg)}86%{transform:rotate(3deg)}}
+.ic-agents circle:not(:first-child){animation:orbit 4s ease-in-out infinite}
+@keyframes orbit{0%,65%,100%{transform:scale(1)}80%{transform:scale(1.35)}}
+.ic-rag path:last-child{animation:scan 4s ease-in-out infinite}
+@keyframes scan{0%,60%,100%{transform:none}75%{transform:translate(-3px,-3px)}88%{transform:translate(1px,1px)}}
+.ic-chart path:nth-child(n+2){animation:grow 4s ease-in-out infinite;transform-origin:bottom}
+.ic-chart path:nth-child(3){animation-delay:.12s}.ic-chart path:nth-child(4){animation-delay:.24s}
+@keyframes grow{0%,65%,100%{transform:scaleY(1)}76%{transform:scaleY(.3)}88%{transform:scaleY(1.1)}}
+.ic-play{animation:nudge 4s ease-in-out infinite}
+.ic-package{animation:bob 4s ease-in-out infinite}
+
+</style>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#e85d04" stroke-opacity="0.07" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#e85d04" fill-opacity="0.35"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#dc2f02"/>
+    <stop offset="50%" stop-color="#e85d04"/>
+    <stop offset="100%" stop-color="#faa307"/>
+  </linearGradient>
+  <radialGradient id="fade" cx="100%" cy="0%" r="90%">
+    <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="cornerfade"><rect width="192" height="40" fill="url(#fade)"/></mask>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity=".9"/>
+    <stop offset="28%" stop-color="#1e293b"/>
+    <stop offset="72%" stop-color="#1e293b"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity=".55"/>
+  </linearGradient>
+  <linearGradient id="pfill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#131d33"/>
+    <stop offset="100%" stop-color="#0f172a"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#f48c06" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#f48c06" stop-opacity=".8"/>
+    <stop offset="100%" stop-color="#f48c06" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="0.5" y="0.5" width="191" height="39" rx="10" fill="url(#pfill)"/>
+<rect x="0.5" y="0.5" width="191" height="39" rx="10" fill="none" stroke="url(#edge)"/>
+<g transform="translate(14 11) scale(0.75)"><g class="ic ic-code" fill="none" stroke="#f48c06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></g></g>
+<text class="mono" x="42" y="25" font-size="13" font-weight="600" fill="#fff4ec">WhatsApp · Code</text>
+<path d="M168 15h7v7M175 15l-8 8" fill="none" stroke="#f48c06" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

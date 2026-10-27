@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="1040 contributions in the past year, 4-day streak, 40 public repos">
+<title>1040 contributions in the past year, 4-day streak, 40 public repos</title>
+<style>
+text{font-family:'Host Grotesk','Georama','Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code','JetBrains Mono',SFMono-Regular,Consolas,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
+
+</style>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#e85d04" stroke-opacity="0.08" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#e85d04" fill-opacity="0.35"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#dc2f02"/>
+    <stop offset="50%" stop-color="#e85d04"/>
+    <stop offset="100%" stop-color="#faa307"/>
+  </linearGradient>
+  <radialGradient id="fade" cx="100%" cy="0%" r="90%">
+    <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="cornerfade"><rect width="1000" height="250" fill="url(#fade)"/></mask>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity=".9"/>
+    <stop offset="28%" stop-color="#f1dccb"/>
+    <stop offset="72%" stop-color="#f1dccb"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity=".55"/>
+  </linearGradient>
+  <linearGradient id="pfill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#fff4ec"/>
+    <stop offset="100%" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#dc2f02" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#dc2f02" stop-opacity=".8"/>
+    <stop offset="100%" stop-color="#dc2f02" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="0.5" y="0.5" width="999" height="249" rx="14" fill="url(#pfill)"/>
+<rect x="0.5" y="0.5" width="999" height="249" rx="14" fill="url(#grid)"/>
+<rect x="0.5" y="0.5" width="999" height="249" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="150.3" y="0.5" width="699.3" height="1.2" fill="url(#sheen)"/>
+<path d="M6.5 20.5V6.5H20.5 M979.5 6.5H993.5V20.5 M993.5 229.5V243.5H979.5 M20.5 243.5H6.5V229.5" fill="none" stroke="#dc2f02" stroke-width="1.5" stroke-linecap="square"/>
+<rect x="28" y="22" width="141.9" height="22" rx="11" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.5"/><circle class="pulse" cx="40" cy="33" r="3.5" fill="#22c55e"/><text class="mono" x="49" y="37" font-size="11" fill="#22c55e" letter-spacing="1">LIVE TELEMETRY</text>
+<text class="mono" x="972" y="37" font-size="11" fill="#cbb6a5" text-anchor="end" letter-spacing="1">SYNCED 2026-10-27 UTC</text>
+<text class="mono" x="28.0" y="82" font-size="10.5" fill="#64748b" letter-spacing="1.5">CONTRIBUTIONS</text>
+<text x="28.0" y="118" font-size="34" font-weight="700" letter-spacing="-1" fill="#0f172a">1,040</text>
+<text class="mono" x="28.0" y="138" font-size="10.5" fill="#cbb6a5">past year</text>
+<line x1="204.8" y1="72" x2="204.8" y2="138" stroke="#f1dccb"/>
+<text class="mono" x="216.8" y="82" font-size="10.5" fill="#64748b" letter-spacing="1.5">STREAK</text>
+<text x="216.8" y="118" font-size="34" font-weight="700" letter-spacing="-1" fill="#0f172a">4</text>
+<text class="mono" x="216.8" y="138" font-size="10.5" fill="#cbb6a5">best 15 days</text>
+<line x1="393.6" y1="72" x2="393.6" y2="138" stroke="#f1dccb"/>
+<text class="mono" x="405.6" y="82" font-size="10.5" fill="#64748b" letter-spacing="1.5">PUBLIC REPOS</text>
+<text x="405.6" y="118" font-size="34" font-weight="700" letter-spacing="-1" fill="#0f172a">40</text>
+<text class="mono" x="405.6" y="138" font-size="10.5" fill="#cbb6a5">original work</text>
+<line x1="582.4" y1="72" x2="582.4" y2="138" stroke="#f1dccb"/>
+<text class="mono" x="594.4" y="82" font-size="10.5" fill="#64748b" letter-spacing="1.5">PULL REQUESTS</text>
+<text x="594.4" y="118" font-size="34" font-weight="700" letter-spacing="-1" fill="#0f172a">154</text>
+<text class="mono" x="594.4" y="138" font-size="10.5" fill="#cbb6a5">all time</text>
+<line x1="771.2" y1="72" x2="771.2" y2="138" stroke="#f1dccb"/>
+<text class="mono" x="783.2" y="82" font-size="10.5" fill="#64748b" letter-spacing="1.5">STARS</text>
+<text x="783.2" y="118" font-size="34" font-weight="700" letter-spacing="-1" fill="#0f172a">3</text>
+<text class="mono" x="783.2" y="138" font-size="10.5" fill="#cbb6a5">23 followers</text>
+<text class="mono" x="28" y="166" font-size="10.5" fill="#64748b" letter-spacing="1.5">LANGUAGES</text>
+<clipPath id="bar"><rect x="28" y="178" width="560" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">
+<rect x="28.0" y="178" width="531.0" height="10" fill="#e85d04"/>
+<rect x="558.0" y="178" width="23.2" height="10" fill="#faa307"/>
+<rect x="580.2" y="178" width="4.2" height="10" fill="#dc2f02"/>
+<rect x="583.4" y="178" width="3.8" height="10" fill="#64748b"/>
+<rect x="586.2" y="178" width="2.6" height="10" fill="#cbb6a5"/>
+</g>
+<circle cx="32" cy="208" r="4" fill="#e85d04"/><text class="mono" x="42" y="212" font-size="11" fill="#0f172a">Python 95%</text>
+<circle cx="129.0" cy="208" r="4" fill="#faa307"/><text class="mono" x="139.0" y="212" font-size="11" fill="#0f172a">TypeScript 4%</text>
+<circle cx="246.10000000000002" cy="208" r="4" fill="#dc2f02"/><text class="mono" x="256.1" y="212" font-size="11" fill="#0f172a">CSS 1%</text>
+<circle cx="316.3" cy="208" r="4" fill="#64748b"/><text class="mono" x="326.3" y="212" font-size="11" fill="#0f172a">HTML 0%</text>
+<circle cx="393.20000000000005" cy="208" r="4" fill="#cbb6a5"/><text class="mono" x="403.20000000000005" y="212" font-size="11" fill="#0f172a">JavaScript 0%</text>
+<text class="mono" x="640" y="166" font-size="10.5" fill="#64748b" letter-spacing="1.5">LAST 8 WEEKS</text>
+<rect x="640.0" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="645.9" y="217.6" width="4.4" height="4.4" rx="1" fill="#e85d04" fill-opacity="0.44"/>
+<rect x="651.9" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="657.8" y="215.3" width="4.4" height="6.7" rx="1" fill="#e85d04" fill-opacity="0.47"/>
+<rect x="663.7" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="669.6" y="217.1" width="4.4" height="4.9" rx="1" fill="#e85d04" fill-opacity="0.44"/>
+<rect x="675.6" y="215.9" width="4.4" height="6.1" rx="1" fill="#e85d04" fill-opacity="0.46"/>
+<rect x="681.5" y="218.8" width="4.4" height="3.2" rx="1" fill="#e85d04" fill-opacity="0.42"/>
+<rect x="687.4" y="210.0" width="4.4" height="12.0" rx="1" fill="#e85d04" fill-opacity="0.55"/>
+<rect x="693.4" y="208.2" width="4.4" height="13.8" rx="1" fill="#e85d04" fill-opacity="0.58"/>
+<rect x="699.3" y="217.1" width="4.4" height="4.9" rx="1" fill="#e85d04" fill-opacity="0.44"/>
+<rect x="705.2" y="218.8" width="4.4" height="3.2" rx="1" fill="#e85d04" fill-opacity="0.42"/>
+<rect x="711.1" y="212.9" width="4.4" height="9.1" rx="1" fill="#e85d04" fill-opacity="0.51"/>
+<rect x="717.1" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="723.0" y="217.1" width="4.4" height="4.9" rx="1" fill="#e85d04" fill-opacity="0.44"/>
+<rect x="728.9" y="219.4" width="4.4" height="2.6" rx="1" fill="#e85d04" fill-opacity="0.41"/>
+<rect x="734.9" y="199.4" width="4.4" height="22.6" rx="1" fill="#e85d04" fill-opacity="0.71"/>
+<rect x="740.8" y="219.4" width="4.4" height="2.6" rx="1" fill="#e85d04" fill-opacity="0.41"/>
+<rect x="746.7" y="215.9" width="4.4" height="6.1" rx="1" fill="#e85d04" fill-opacity="0.46"/>
+<rect x="752.6" y="215.9" width="4.4" height="6.1" rx="1" fill="#e85d04" fill-opacity="0.46"/>
+<rect x="758.6" y="183.5" width="4.4" height="38.5" rx="1" fill="#e85d04" fill-opacity="0.95"/>
+<rect x="764.5" y="214.1" width="4.4" height="7.9" rx="1" fill="#e85d04" fill-opacity="0.49"/>
+<rect x="770.4" y="194.1" width="4.4" height="27.9" rx="1" fill="#e85d04" fill-opacity="0.79"/>
+<rect x="776.4" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="782.3" y="212.9" width="4.4" height="9.1" rx="1" fill="#e85d04" fill-opacity="0.51"/>
+<rect x="788.2" y="214.7" width="4.4" height="7.3" rx="1" fill="#e85d04" fill-opacity="0.48"/>
+<rect x="794.1" y="205.3" width="4.4" height="16.7" rx="1" fill="#e85d04" fill-opacity="0.62"/>
+<rect x="800.1" y="217.6" width="4.4" height="4.4" rx="1" fill="#e85d04" fill-opacity="0.44"/>
+<rect x="806.0" y="216.5" width="4.4" height="5.5" rx="1" fill="#e85d04" fill-opacity="0.45"/>
+<rect x="811.9" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="817.9" y="197.6" width="4.4" height="24.4" rx="1" fill="#e85d04" fill-opacity="0.74"/>
+<rect x="823.8" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="829.7" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="835.6" y="212.4" width="4.4" height="9.6" rx="1" fill="#e85d04" fill-opacity="0.51"/>
+<rect x="841.6" y="213.5" width="4.4" height="8.5" rx="1" fill="#e85d04" fill-opacity="0.50"/>
+<rect x="847.5" y="218.2" width="4.4" height="3.8" rx="1" fill="#e85d04" fill-opacity="0.43"/>
+<rect x="853.4" y="213.5" width="4.4" height="8.5" rx="1" fill="#e85d04" fill-opacity="0.50"/>
+<rect x="859.4" y="210.0" width="4.4" height="12.0" rx="1" fill="#e85d04" fill-opacity="0.55"/>
+<rect x="865.3" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="871.2" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="877.1" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="883.1" y="218.2" width="4.4" height="3.8" rx="1" fill="#e85d04" fill-opacity="0.43"/>
+<rect x="889.0" y="218.8" width="4.4" height="3.2" rx="1" fill="#e85d04" fill-opacity="0.42"/>
+<rect x="894.9" y="217.6" width="4.4" height="4.4" rx="1" fill="#e85d04" fill-opacity="0.44"/>
+<rect x="900.9" y="214.1" width="4.4" height="7.9" rx="1" fill="#e85d04" fill-opacity="0.49"/>
+<rect x="906.8" y="219.4" width="4.4" height="2.6" rx="1" fill="#e85d04" fill-opacity="0.41"/>
+<rect x="912.7" y="219.4" width="4.4" height="2.6" rx="1" fill="#e85d04" fill-opacity="0.41"/>
+<rect x="918.6" y="212.4" width="4.4" height="9.6" rx="1" fill="#e85d04" fill-opacity="0.51"/>
+<rect x="924.6" y="189.4" width="4.4" height="32.6" rx="1" fill="#e85d04" fill-opacity="0.86"/>
+<rect x="930.5" y="180.0" width="4.4" height="42.0" rx="1" fill="#e85d04" fill-opacity="1.00"/>
+<rect x="936.4" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="942.4" y="220.0" width="4.4" height="2.0" rx="1" fill="#f1dccb" fill-opacity="0.40"/>
+<rect x="948.3" y="219.4" width="4.4" height="2.6" rx="1" fill="#e85d04" fill-opacity="0.41"/>
+<rect x="954.2" y="204.1" width="4.4" height="17.9" rx="1" fill="#e85d04" fill-opacity="0.64"/>
+<rect x="960.1" y="214.7" width="4.4" height="7.3" rx="1" fill="#e85d04" fill-opacity="0.48"/>
+<rect x="966.1" y="219.4" width="4.4" height="2.6" rx="1" fill="#e85d04" fill-opacity="0.41"/>
+</svg>
