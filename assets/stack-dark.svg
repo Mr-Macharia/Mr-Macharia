@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="319" viewBox="0 0 1000 319" role="img" aria-label="Stack — Agents &amp; GenAI: Agno, CrewAI, LangChain, MCP, OpenAI, Gemini, RAG; Machine learning: Python, PyTorch, TensorFlow, scikit-learn, Pandas; Backend &amp; web: FastAPI, Next.js, React, TypeScript, Tailwind, Node.js; Data: PostgreSQL, MongoDB, Redis, Pinecone, ChromaDB, Power BI; Cloud &amp; ops: Docker, AWS, GCP, Azure, Vercel, GitHub Actions; Voice &amp; automation: LiveKit, Deepgram, VAPI, n8n, Make, Zapier">
+<title>Stack — Agents &amp; GenAI: Agno, CrewAI, LangChain, MCP, OpenAI, Gemini, RAG; Machine learning: Python, PyTorch, TensorFlow, scikit-learn, Pandas; Backend &amp; web: FastAPI, Next.js, React, TypeScript, Tailwind, Node.js; Data: PostgreSQL, MongoDB, Redis, Pinecone, ChromaDB, Power BI; Cloud &amp; ops: Docker, AWS, GCP, Azure, Vercel, GitHub Actions; Voice &amp; automation: LiveKit, Deepgram, VAPI, n8n, Make, Zapier</title>
+<style>
+text{font-family:'Host Grotesk','Georama','Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code','JetBrains Mono',SFMono-Regular,Consolas,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+</style>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#e85d04" stroke-opacity="0.07" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#e85d04" fill-opacity="0.35"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#dc2f02"/>
+    <stop offset="50%" stop-color="#e85d04"/>
+    <stop offset="100%" stop-color="#faa307"/>
+  </linearGradient>
+  <radialGradient id="fade" cx="100%" cy="0%" r="90%">
+    <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="cornerfade"><rect width="1000" height="319" fill="url(#fade)"/></mask>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity=".9"/>
+    <stop offset="28%" stop-color="#1e293b"/>
+    <stop offset="72%" stop-color="#1e293b"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity=".55"/>
+  </linearGradient>
+  <linearGradient id="pfill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#131d33"/>
+    <stop offset="100%" stop-color="#0f172a"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#f48c06" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#f48c06" stop-opacity=".8"/>
+    <stop offset="100%" stop-color="#f48c06" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="322" height="150" rx="14" fill="url(#pfill)"/>
+<rect x="1" y="1" width="322" height="150" rx="14" fill="url(#grid)"/>
+<rect x="1" y="1" width="322" height="150" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="49.3" y="1" width="225.4" height="1.2" fill="url(#sheen)"/>
+<text class="mono" x="21" y="33" font-size="11" fill="#f48c06" letter-spacing="1.5">01</text>
+<text x="47" y="34" font-size="16" font-weight="700" fill="#fff4ec">Agents &amp; GenAI</text>
+<rect x="21" y="53" width="46.8" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="44.4" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">Agno</text>
+<rect x="74.84" y="53" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="105.0" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">CrewAI</text>
+<rect x="142.1" y="53" width="80.4" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="182.3" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">LangChain</text>
+<rect x="229.49" y="53" width="40.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="249.6" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">MCP</text>
+<rect x="21" y="84" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="51.1" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">OpenAI</text>
+<rect x="88.25999999999999" y="84" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="118.4" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">Gemini</text>
+<rect x="155.51999999999998" y="84" width="40.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="175.6" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">RAG</text>
+<rect x="340" y="1" width="322" height="150" rx="14" fill="url(#pfill)"/>
+<rect x="340" y="1" width="322" height="150" rx="14" fill="url(#grid)"/>
+<rect x="340" y="1" width="322" height="150" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="388.3" y="1" width="225.4" height="1.2" fill="url(#sheen)"/>
+<text class="mono" x="360" y="33" font-size="11" fill="#f48c06" letter-spacing="1.5">02</text>
+<text x="386" y="34" font-size="16" font-weight="700" fill="#fff4ec">Machine learning</text>
+<rect x="360" y="53" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="390.1" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">Python</text>
+<rect x="427.26" y="53" width="67.0" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="460.7" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">PyTorch</text>
+<rect x="501.23" y="53" width="87.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="544.8" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">TensorFlow</text>
+<rect x="360" y="84" width="100.5" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="410.3" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">scikit-learn</text>
+<rect x="467.52" y="84" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="497.6" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">Pandas</text>
+<rect x="679" y="1" width="322" height="150" rx="14" fill="url(#pfill)"/>
+<rect x="679" y="1" width="322" height="150" rx="14" fill="url(#grid)"/>
+<rect x="679" y="1" width="322" height="150" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="727.3" y="1" width="225.4" height="1.2" fill="url(#sheen)"/>
+<text class="mono" x="699" y="33" font-size="11" fill="#f48c06" letter-spacing="1.5">03</text>
+<text x="725" y="34" font-size="16" font-weight="700" fill="#fff4ec">Backend &amp; web</text>
+<rect x="699" y="53" width="67.0" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="732.5" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">FastAPI</text>
+<rect x="772.97" y="53" width="67.0" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="806.5" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">Next.js</text>
+<rect x="846.94" y="53" width="53.5" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="873.7" y="69.0" font-size="11" fill="#fff4ec" text-anchor="middle">React</text>
+<rect x="699" y="84" width="87.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="742.5" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">TypeScript</text>
+<rect x="793.1" y="84" width="73.7" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="829.9" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">Tailwind</text>
+<rect x="873.78" y="84" width="67.0" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="907.3" y="100.0" font-size="11" fill="#fff4ec" text-anchor="middle">Node.js</text>
+<rect x="1" y="168" width="322" height="150" rx="14" fill="url(#pfill)"/>
+<rect x="1" y="168" width="322" height="150" rx="14" fill="url(#grid)"/>
+<rect x="1" y="168" width="322" height="150" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="49.3" y="168" width="225.4" height="1.2" fill="url(#sheen)"/>
+<text class="mono" x="21" y="200" font-size="11" fill="#f48c06" letter-spacing="1.5">04</text>
+<text x="47" y="201" font-size="16" font-weight="700" fill="#fff4ec">Data</text>
+<rect x="21" y="220" width="87.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="64.5" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">PostgreSQL</text>
+<rect x="115.1" y="220" width="67.0" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="148.6" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">MongoDB</text>
+<rect x="189.07" y="220" width="53.5" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="215.8" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">Redis</text>
+<rect x="21" y="251" width="73.7" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="57.8" y="267.0" font-size="11" fill="#fff4ec" text-anchor="middle">Pinecone</text>
+<rect x="101.68" y="251" width="73.7" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="138.5" y="267.0" font-size="11" fill="#fff4ec" text-anchor="middle">ChromaDB</text>
+<rect x="182.36" y="251" width="73.7" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="219.2" y="267.0" font-size="11" fill="#fff4ec" text-anchor="middle">Power BI</text>
+<rect x="340" y="168" width="322" height="150" rx="14" fill="url(#pfill)"/>
+<rect x="340" y="168" width="322" height="150" rx="14" fill="url(#grid)"/>
+<rect x="340" y="168" width="322" height="150" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="388.3" y="168" width="225.4" height="1.2" fill="url(#sheen)"/>
+<text class="mono" x="360" y="200" font-size="11" fill="#f48c06" letter-spacing="1.5">05</text>
+<text x="386" y="201" font-size="16" font-weight="700" fill="#fff4ec">Cloud &amp; ops</text>
+<rect x="360" y="220" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="390.1" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">Docker</text>
+<rect x="427.26" y="220" width="40.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="447.3" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">AWS</text>
+<rect x="474.39" y="220" width="40.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="494.5" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">GCP</text>
+<rect x="521.52" y="220" width="53.5" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="548.3" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">Azure</text>
+<rect x="360" y="251" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="390.1" y="267.0" font-size="11" fill="#fff4ec" text-anchor="middle">Vercel</text>
+<rect x="427.26" y="251" width="113.9" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="484.2" y="267.0" font-size="11" fill="#fff4ec" text-anchor="middle">GitHub Actions</text>
+<rect x="679" y="168" width="322" height="150" rx="14" fill="url(#pfill)"/>
+<rect x="679" y="168" width="322" height="150" rx="14" fill="url(#grid)"/>
+<rect x="679" y="168" width="322" height="150" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="727.3" y="168" width="225.4" height="1.2" fill="url(#sheen)"/>
+<text class="mono" x="699" y="200" font-size="11" fill="#f48c06" letter-spacing="1.5">06</text>
+<text x="725" y="201" font-size="16" font-weight="700" fill="#fff4ec">Voice &amp; automation</text>
+<rect x="699" y="220" width="67.0" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="732.5" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">LiveKit</text>
+<rect x="772.97" y="220" width="73.7" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="809.8" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">Deepgram</text>
+<rect x="853.6500000000001" y="220" width="46.8" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="877.1" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">VAPI</text>
+<rect x="907.4900000000001" y="220" width="40.1" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="927.6" y="236.0" font-size="11" fill="#fff4ec" text-anchor="middle">n8n</text>
+<rect x="699" y="251" width="46.8" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="722.4" y="267.0" font-size="11" fill="#fff4ec" text-anchor="middle">Make</text>
+<rect x="752.84" y="251" width="60.3" height="24" rx="12.0" fill="#1a2540" stroke="#1e293b"/><text class="mono" x="783.0" y="267.0" font-size="11" fill="#fff4ec" text-anchor="middle">Zapier</text>
+</svg>

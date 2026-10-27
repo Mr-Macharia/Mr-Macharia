@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-label="Have something worth building? Collaborations, roles and open-source — my inbox is open.">
+<title>Have something worth building? Collaborations, roles and open-source — my inbox is open.</title>
+<style>
+text{font-family:'Host Grotesk','Georama','Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code','JetBrains Mono',SFMono-Regular,Consolas,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+</style>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#e85d04" stroke-opacity="0.08" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#e85d04" fill-opacity="0.35"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#dc2f02"/>
+    <stop offset="50%" stop-color="#e85d04"/>
+    <stop offset="100%" stop-color="#faa307"/>
+  </linearGradient>
+  <radialGradient id="fade" cx="100%" cy="0%" r="90%">
+    <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="cornerfade"><rect width="1000" height="190" fill="url(#fade)"/></mask>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity=".9"/>
+    <stop offset="28%" stop-color="#f1dccb"/>
+    <stop offset="72%" stop-color="#f1dccb"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity=".55"/>
+  </linearGradient>
+  <linearGradient id="pfill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#fff4ec"/>
+    <stop offset="100%" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#dc2f02" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#dc2f02" stop-opacity=".8"/>
+    <stop offset="100%" stop-color="#dc2f02" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect width="1000" height="190" rx="18" fill="#fff8f2"/>
+<rect width="1000" height="190" rx="18" fill="url(#grid)"/>
+<circle cx="500.0" cy="190" r="320" fill="url(#glow)"/>
+<rect x="0.5" y="0.5" width="999" height="189" rx="18" fill="none" stroke="#f1dccb"/>
+<path d="M10 28V10H28 M972 10H990V28 M990 162V180H972 M28 180H10V162" fill="none" stroke="#dc2f02" stroke-width="1.5" stroke-linecap="square"/>
+<text x="500.0" y="92" font-size="40" font-weight="700" letter-spacing="-1" fill="#0f172a" text-anchor="middle">Have something worth building<tspan fill="#e85d04">?</tspan></text>
+<text x="500.0" y="132" font-size="17" fill="#64748b" text-anchor="middle">Collaborations, roles and open-source — my inbox is open.</text>
+</svg>

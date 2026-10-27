@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="364" viewBox="0 0 1000 364" role="img" aria-label="If AI replaces people while human problems remain unsolved, we have mistaken the purpose of progress. AI should extend human capability and bring expertise where it is needed most. Its purpose should not be to make people unnecessary, but to meet the needs we have not had the capacity to address. If we replace workers while leaving those needs unmet, we have mistaken efficiency for progress. Build AI to fill gaps in human capacity, not to create gaps in human livelihoods.">
+<title>If AI replaces people while human problems remain unsolved, we have mistaken the purpose of progress. AI should extend human capability and bring expertise where it is needed most. Its purpose should not be to make people unnecessary, but to meet the needs we have not had the capacity to address. If we replace workers while leaving those needs unmet, we have mistaken efficiency for progress. Build AI to fill gaps in human capacity, not to create gaps in human livelihoods.</title>
+<style>
+text{font-family:'Host Grotesk','Georama','Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'Fira Code','JetBrains Mono',SFMono-Regular,Consolas,monospace}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+</style>
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#e85d04" stroke-opacity="0.07" stroke-width="1"/>
+  </pattern>
+  <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1" fill="#e85d04" fill-opacity="0.35"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity="0.30"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#dc2f02"/>
+    <stop offset="50%" stop-color="#e85d04"/>
+    <stop offset="100%" stop-color="#faa307"/>
+  </linearGradient>
+  <radialGradient id="fade" cx="100%" cy="0%" r="90%">
+    <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+  </radialGradient>
+  <mask id="cornerfade"><rect width="1000" height="364" fill="url(#fade)"/></mask>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e85d04" stop-opacity=".9"/>
+    <stop offset="28%" stop-color="#1e293b"/>
+    <stop offset="72%" stop-color="#1e293b"/>
+    <stop offset="100%" stop-color="#e85d04" stop-opacity=".55"/>
+  </linearGradient>
+  <linearGradient id="pfill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#131d33"/>
+    <stop offset="100%" stop-color="#0f172a"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#f48c06" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#f48c06" stop-opacity=".8"/>
+    <stop offset="100%" stop-color="#f48c06" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="0.5" y="0.5" width="999" height="363" rx="14" fill="url(#pfill)"/>
+<rect x="0.5" y="0.5" width="999" height="363" rx="14" fill="url(#grid)"/>
+<rect x="0.5" y="0.5" width="999" height="363" rx="14" fill="none" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="150.3" y="0.5" width="699.3" height="1.2" fill="url(#sheen)"/>
+<path d="M6.5 20.5V6.5H20.5 M979.5 6.5H993.5V20.5 M993.5 343.5V357.5H979.5 M20.5 357.5H6.5V343.5" fill="none" stroke="#f48c06" stroke-width="1.5" stroke-linecap="square"/>
+<circle cx="120" cy="40" r="220" fill="url(#glow)" opacity=".7"/>
+<text x="48" y="132" font-size="150" font-weight="700" fill="url(#fire)" opacity=".9">“</text>
+<text x="150" y="78" font-size="28" font-weight="700" letter-spacing="-.5" fill="#fff4ec">If AI replaces people while human problems remain</text>
+<text x="150" y="116" font-size="28" font-weight="700" letter-spacing="-.5" fill="#fff4ec">unsolved, we have mistaken the purpose of progress.</text>
+<text x="150" y="180" font-size="16.5" fill="#94a3b8">AI should extend human capability and bring expertise where it is needed most.</text>
+<text x="150" y="207" font-size="16.5" fill="#94a3b8">Its purpose should not be to make people unnecessary, but to meet the needs we</text>
+<text x="150" y="234" font-size="16.5" fill="#94a3b8">have not had the capacity to address. If we replace workers while leaving those</text>
+<text x="150" y="261" font-size="16.5" fill="#94a3b8">needs unmet, we have mistaken efficiency for progress.</text>
+<line x1="150" y1="318" x2="186" y2="318" stroke="#e85d04" stroke-width="2"/>
+<text class="mono" x="198" y="322" font-size="13" fill="#f48c06">Build AI to fill gaps in human capacity, not to create gaps in human livelihoods.</text>
+</svg>
