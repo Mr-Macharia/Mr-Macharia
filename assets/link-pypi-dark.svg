@@ -27,7 +27,7 @@ text{font-family:'Host Grotesk','Georama','Segoe UI',Helvetica,Arial,sans-serif}
 @keyframes nudge{0%,70%,100%{transform:none}80%{transform:scale(.88)}90%{transform:scale(1.06)}}
 .ic-whatsapp,.ic-chat{animation:ring 4s ease-in-out infinite}
 @keyframes ring{0%,70%,100%{transform:none}74%{transform:rotate(-12deg)}78%{transform:rotate(10deg)}82%{transform:rotate(-6deg)}86%{transform:rotate(3deg)}}
-.ic-agents circle:not(:first-child){animation:orbit 4s ease-in-out infinite}
+.ic-agents circle:not(:first-child),.ic-nexus circle:not(:first-child){animation:orbit 4s ease-in-out infinite}
 @keyframes orbit{0%,65%,100%{transform:scale(1)}80%{transform:scale(1.35)}}
 .ic-rag path:last-child{animation:scan 4s ease-in-out infinite}
 @keyframes scan{0%,60%,100%{transform:none}75%{transform:translate(-3px,-3px)}88%{transform:translate(1px,1px)}}

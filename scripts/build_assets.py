@@ -100,7 +100,8 @@ QUOTE = {
 }
 
 CONTACT_BTNS = [("email", "Email", "ai@gichogumacharia.tech"),
-                ("portfolio", "GichAINexus", "gichainexus.co.ke"),
+                ("portfolio", "Portfolio", "gichogumacharia.tech"),
+                ("nexus", "GichAINexus", "gichainexus.co.ke"),
                 ("linkedin", "LinkedIn", "in/gichogu-macharia")]
 
 # ---------------------------------------------------------------- icons
@@ -126,6 +127,7 @@ ICONS = {
     "play": '<circle cx="12" cy="12" r="9"/><path d="M10 8.5v7l5.5-3.5Z"/>',
     "package": '<path d="M12 2 21 7v10l-9 5-9-5V7Z"/><path d="m3 7 9 5 9-5M12 12v10"/>',
 }
+ICONS["nexus"] = ICONS["agents"]
 
 
 def icon(name, x, y, color, size=24, sw=1.8):
@@ -456,8 +458,8 @@ def linkbtn(ico, label, t):
 def footer(t):
     h = 70
     b = [f'<rect x="0" y="0" width="{W}" height="3" rx="1.5" fill="url(#fire)"/>',
-         f'<text class="mono" x="0" y="44" font-size="12" fill="{t["muted"]}" letter-spacing="1"><tspan fill="{t["accent"]}">GM</tspan>  ·  gichainexus.co.ke</text>',]
-    return svg(W, h, "\n".join(b), t, title="GichAINexus — gichainexus.co.ke")
+         f'<text class="mono" x="0" y="44" font-size="12" fill="{t["muted"]}" letter-spacing="1"><tspan fill="{t["accent"]}">GM</tspan>  ·  gichogumacharia.tech  ·  gichainexus.co.ke</text>',]
+    return svg(W, h, "\n".join(b), t, title="gichogumacharia.tech · GichAINexus — gichainexus.co.ke")
 
 
 # ---------------------------------------------------------------- main
