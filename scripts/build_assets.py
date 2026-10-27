@@ -40,11 +40,10 @@ PROJECTS = {
     "mpesa": {
         "idx": "P-01", "status": "PYPI · MCP REGISTRY",
         "title": "M-Pesa Daraja Agent Kit",
-        "desc": ["Agent Skills and an MCP server for Safaricom's Daraja API.",
-                 "Ask your agent to charge a number; the customer gets a PIN",
-                 "prompt; the agent reports back with the receipt."],
+        "desc": ["Build M-Pesa integrations with your coding agent, or let your agent take payments.",
+                 "STK Push, B2C, C2B, Ratiba and more — idempotent, sandbox first."],
         "stack": ["Python", "MCP", "Agent Skills", "Daraja API", "PyPI"],
-        "art": "mpesa",
+        "art": "mpesa", "shot": "mpesa", "layout": "banner",
     },
     "whatsapp": {
         "idx": "P-02", "status": "MULTI-AGENT",
@@ -57,21 +56,21 @@ PROJECTS = {
     },
     "voice": {
         "idx": "P-03", "status": "LIVE",
-        "title": "Website Voice Agent",
-        "desc": ["Real-time conversational voice agent for",
-                 "websites: streaming speech in, speech out,",
-                 "with memory and an MCP tool interface."],
+        "title": "Clyde — Voice Portfolio",
+        "desc": ["A portfolio you can talk to. Ask about my work",
+                 "or book a time, by text or by voice — with RAG,",
+                 "search and booking tools underneath."],
         "stack": ["Agno AgentOS", "LiveKit", "Deepgram", "Next.js"],
-        "art": "voice",
+        "art": "voice", "shot": "voice",
     },
     "medical": {
         "idx": "P-04", "status": "AI-NATIVE ANALYTICS",
-        "title": "Medical Insurance Copilot",
-        "desc": ["Data-science showcase on a 96,639-member health portfolio:",
-                 "a guided story, BI dashboard and model playground, fronted",
-                 "by a copilot that queries data, scores members and cites."],
+        "title": "Medical Insurance AI",
+        "desc": ["A 96,639-member health insurance book, explained by",
+                 "an AI that shows its work: a guided story, live member",
+                 "scoring, and a copilot that queries data and cites the audit."],
         "stack": ["Next.js 16", "CopilotKit", "Agno", "scikit-learn"],
-        "art": "dash",
+        "art": "dash", "shot": "medical",
     },
 }
 
@@ -304,9 +303,24 @@ def art(kind, x, y, w, h, t):
     return "\n".join(b)
 
 
+def shot(name, x, y, w, h, t, fit="slice"):
+    """Embed a real screenshot (GitHub won't load external images inside SVG)."""
+    import base64
+    from brand import ASSETS
+    data = base64.b64encode((ASSETS / "shots" / f"{name}.jpg").read_bytes()).decode()
+    cid = f"clip-{name}"
+    return (f'<clipPath id="{cid}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="10"/></clipPath>'
+            f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="10" fill="#0b1222"/>'
+            f'<image href="data:image/jpeg;base64,{data}" x="{x}" y="{y}" width="{w}" height="{h}" '
+            f'preserveAspectRatio="xMidYMin {fit}" clip-path="url(#{cid})"/>')
+
+
 def card(key, t, wide=True):
     p = PROJECTS[key]
+    banner = p.get("layout") == "banner"
     w, h = (W, 280) if wide else (490, 420)
+    if banner:
+        h = 32 + 307 + 215
     css = PULSE_CSS + """
 .eq{animation:eq 1.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes eq{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.35)}}
@@ -315,24 +329,27 @@ def card(key, t, wide=True):
          f'<circle cx="0" cy="{h}" r="180" fill="url(#glow)" opacity=".35"/>',
          f'<rect x="32" y="0.5" width="64" height="3" rx="1.5" fill="url(#fire)"/>']
     pad = 32
-    if wide:
+    if banner:
+        ax, ay, aw, ah = pad, 32, w - pad * 2, 307
+        tx, ty, tw = pad, 0, w - pad * 2
+    elif wide:
         ax, ay, aw, ah = w - 400, 32, 368, h - 64
         tx, ty, tw = pad, 46, w - 400 - pad * 2
     else:
         ax, ay, aw, ah = pad, 68, w - pad * 2, 150
         tx, ty, tw = pad, 0, w - pad * 2
     # meta row
-    meta_y = ty if wide else 44
+    meta_y = ay + ah + 44 if banner else (ty if wide else 44)
     b.append(f'<text class="mono" x="{tx}" y="{meta_y}" font-size="12" fill="{t["faint"]}" letter-spacing="1.5">{p["idx"]}</text>')
     color = "#22c55e" if p["status"] == "LIVE" else t["accent"]
     b.append(pill(tx + 52, meta_y - 15, p["status"], t, color=color, pulse=p["status"] == "LIVE"))
     num = p["idx"][-2:]
-    wx, wy = (tx + tw + 10, h - 22) if wide else (w - 28, ay + ah + 128)
+    wx, wy = (w - 28, h - 22) if banner else (tx + tw + 10, h - 22) if wide else (w - 28, ay + ah + 128)
     b.append(f'<text x="{wx}" y="{wy}" font-size="120" font-weight="800" letter-spacing="-4" fill="{t["accent2"]}" fill-opacity=".07" text-anchor="end">{num}</text>')
     b.append(f'<rect x="{ax + 6}" y="{ay + 8}" width="{aw}" height="{ah}" rx="10" fill="{t["accent2"]}" fill-opacity=".10"/>')
-    b.append(art(p["art"], ax, ay, aw, ah, t))
+    b.append(shot(p["shot"], ax, ay, aw, ah, t) if p.get("shot") else art(p["art"], ax, ay, aw, ah, t))
     b.append(f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="10" fill="none" stroke="url(#edge)"/>')
-    y0 = meta_y + 48 if wide else ay + ah + 50
+    y0 = meta_y + 40 if banner else meta_y + 48 if wide else ay + ah + 50
     b.append(f'<text x="{tx}" y="{y0}" font-size="28" font-weight="800" letter-spacing="-.8" fill="{t["text"]}">{esc(p["title"])}</text>')
     for i, line in enumerate(p["desc"]):
         b.append(f'<text x="{tx}" y="{y0 + 32 + i * 23}" font-size="15" fill="{t["muted"]}">{esc(line)}</text>')
