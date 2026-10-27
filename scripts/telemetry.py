@@ -119,10 +119,115 @@ def render(s, t):
     return svg(W, H, "\n".join(b), t, PULSE_CSS, title)
 
 
+NOW_QUERY = """
+query($login:String!, $since:DateTime!){ user(login:$login){
+  recent: repositories(ownerAffiliations:OWNER, isFork:false, privacy:PUBLIC, first:30, orderBy:{field:PUSHED_AT,direction:DESC}){
+    nodes{ name description releases(first:1, orderBy:{field:CREATED_AT,direction:DESC}){ nodes{ tagName createdAt } } }
+  }
+  newest: repositories(ownerAffiliations:OWNER, isFork:false, privacy:PUBLIC, first:5, orderBy:{field:CREATED_AT,direction:DESC}){
+    nodes{ name description createdAt }
+  }
+  contributionsCollection(from:$since){
+    commitContributionsByRepository(maxRepositories:10){
+      repository{ name description isPrivate owner{login} } contributions{ totalCount }
+    }
+  }
+}}"""
+
+
+def gql(query, variables):
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query, "variables": variables}).encode(),
+        headers={"Authorization": f"bearer {os.environ['GITHUB_TOKEN']}", "Content-Type": "application/json"},
+    )
+    with urllib.request.urlopen(req) as r:
+        data = json.load(r)
+    if "errors" in data:
+        raise SystemExit(data["errors"])
+    return data["data"]["user"]
+
+
+def ago(iso):
+    days = (datetime.now(timezone.utc) - datetime.fromisoformat(iso.replace("Z", "+00:00"))).days
+    if days < 1:
+        return "today"
+    if days < 2:
+        return "yesterday"
+    if days < 30:
+        return f"{days} days ago"
+    if days < 60:
+        return "a month ago"
+    return f"{days // 30} months ago"
+
+
+def now_rows():
+    """Three live rows: latest release, most-committed repo this week, newest repo."""
+    since = datetime.now(timezone.utc).replace(microsecond=0)
+    since = since.fromtimestamp(since.timestamp() - 7 * 86400, timezone.utc).isoformat()
+    u = gql(NOW_QUERY, {"login": USER, "since": since})
+    skip = {USER}
+    rows = []
+
+    released = [(r, r["releases"]["nodes"][0]) for r in u["recent"]["nodes"] if r["releases"]["nodes"] and r["name"] not in skip]
+    if released:
+        r, rel = max(released, key=lambda x: x[1]["createdAt"])
+        rows.append(("shipping", r["name"], f'{rel["tagName"]} · {ago(rel["createdAt"])}', r["description"]))
+
+    skip |= {r[1] for r in rows}  # one repo per row
+    busy = [c for c in u["contributionsCollection"]["commitContributionsByRepository"]
+            if not c["repository"]["isPrivate"] and c["repository"]["owner"]["login"] == USER
+            and c["repository"]["name"] not in skip]
+    if busy:
+        c = max(busy, key=lambda c: c["contributions"]["totalCount"])
+        n = c["contributions"]["totalCount"]
+        rows.append(("building", c["repository"]["name"], f'{n} commit{"s" * (n != 1)} this week', c["repository"]["description"]))
+    else:
+        r = next(r for r in u["recent"]["nodes"] if r["name"] not in skip)
+        rows.append(("building", r["name"], "most recent push", r["description"]))
+
+    skip |= {r[1] for r in rows}
+    new = next((r for r in u["newest"]["nodes"] if r["name"] not in skip), u["newest"]["nodes"][0])
+    rows.append(("exploring", new["name"], f'started {ago(new["createdAt"])}', new["description"]))
+    return rows
+
+
+def fit(s, size, max_w):
+    """Trim text to a pixel width (sans-serif estimate) with an ellipsis."""
+    limit = int(max_w / (size * 0.52))
+    return s if len(s) <= limit else s[:limit - 1].rstrip(" ,.;:—-") + "…"
+
+
+def render_now(rows, t):
+    top, row_h = 66, 64
+    h = top + len(rows) * row_h + 14
+    label_x, name_x, right = 32, 168, W - 32
+    b = [panel(0.5, 0.5, W - 1, h - 1, t),
+         pill(28, 22, "CURRENTLY", t, color="#22c55e"),
+         f'<text class="mono" x="{right}" y="37" font-size="11" fill="{t["faint"]}" text-anchor="end" letter-spacing="1">'
+         f'FROM GITHUB · {datetime.now(timezone.utc):%Y-%m-%d}</text>']
+    for i, (label, name, meta, desc) in enumerate(rows):
+        y = top + i * row_h
+        if i:
+            b.append(f'<line x1="{label_x}" y1="{y}" x2="{right}" y2="{y}" stroke="{t["line"]}" stroke-dasharray="2 4"/>')
+        meta_w = len(meta) * 11.5 * 0.61 + 24
+        b.append(f'<text class="mono" x="{label_x}" y="{y + 28}" font-size="13" fill="{t["accent"]}" letter-spacing=".5">{label}</text>')
+        b.append(f'<text x="{name_x}" y="{y + 28}" font-size="16.5" font-weight="700" fill="{t["text"]}">'
+                 f'{esc(fit(name, 16.5, right - meta_w - name_x))}</text>')
+        b.append(f'<text class="mono" x="{right}" y="{y + 28}" font-size="11.5" fill="{t["muted"]}" text-anchor="end">{esc(meta)}</text>')
+        b.append(f'<text x="{name_x}" y="{y + 49}" font-size="13.5" fill="{t["muted"]}">'
+                 f'{esc(fit(desc or "No description yet.", 13.5, right - name_x))}</text>')
+    title = "Now — " + "; ".join(f"{l}: {n} ({m})" for l, n, m, _ in rows)
+    return svg(W, h, "\n".join(b), t, PULSE_CSS, title)
+
+
 def main():
     s = summarise(fetch())
+    rows = now_rows()
     for name, t in THEMES.items():
         write("telemetry", name, render(s, t))
+        write("now", name, render_now(rows, t))
+    print(rows)
     print(json.dumps({k: v for k, v in s.items() if k != "recent"}))
 
 

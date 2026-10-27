@@ -76,7 +76,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg">
-  <img src="assets/now-light.svg" width="100%" alt="Currently shipping mpesa-daraja-mcp, building real-time voice agents, exploring agent memory, tool safety and evaluation">
+  <img src="assets/now-light.svg" width="100%" alt="Currently: live from GitHub — latest release, most active repo this week, and newest repo">
 </picture>
 
 <picture>

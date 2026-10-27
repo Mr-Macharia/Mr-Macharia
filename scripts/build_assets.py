@@ -476,7 +476,6 @@ def main():
         for key in PROJECTS:
             write(f"card-{key}", name, card(key, t, wide=key in ("mpesa", "medical")))
         write("stack", name, stack(t))
-        write("now", name, now(t))
         write("quote", name, quote(t))
         write("cta", name, cta(t))
         for k, label, sub in CONTACT_BTNS:
