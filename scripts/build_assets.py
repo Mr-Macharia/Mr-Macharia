@@ -100,9 +100,8 @@ QUOTE = {
 }
 
 CONTACT_BTNS = [("email", "Email", "ai@gichogumacharia.tech"),
-                ("portfolio", "Portfolio", "gichogumacharia.tech"),
-                ("linkedin", "LinkedIn", "in/gichogu-macharia"),
-                ("whatsapp", "WhatsApp", "+254 101 656 882")]
+                ("portfolio", "GichAINexus", "gichainexus.co.ke"),
+                ("linkedin", "LinkedIn", "in/gichogu-macharia")]
 
 # ---------------------------------------------------------------- icons
 
@@ -457,9 +456,8 @@ def linkbtn(ico, label, t):
 def footer(t):
     h = 70
     b = [f'<rect x="0" y="0" width="{W}" height="3" rx="1.5" fill="url(#fire)"/>',
-         f'<text class="mono" x="0" y="44" font-size="12" fill="{t["muted"]}" letter-spacing="1"><tspan fill="{t["accent"]}">GM</tspan>  ·  gichogumacharia.tech</text>',
-         f'<text class="mono" x="{W}" y="44" font-size="12" fill="{t["faint"]}" text-anchor="end" letter-spacing="1">BUILT IN NAIROBI · RENDERED IN SVG</text>']
-    return svg(W, h, "\n".join(b), t, title="gichogumacharia.tech")
+         f'<text class="mono" x="0" y="44" font-size="12" fill="{t["muted"]}" letter-spacing="1"><tspan fill="{t["accent"]}">GM</tspan>  ·  gichainexus.co.ke</text>',]
+    return svg(W, h, "\n".join(b), t, title="GichAINexus — gichainexus.co.ke")
 
 
 # ---------------------------------------------------------------- main
