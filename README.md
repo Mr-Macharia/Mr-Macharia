@@ -7,7 +7,8 @@
 
 <br>
 
-<a name="about"></a>
+<p><a name="about"></a></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg">
   <img src="assets/h-about-light.svg" width="100%" alt="01 — About">
@@ -20,16 +21,14 @@
 
 <br>
 
-<a name="work"></a>
+<p><a name="work"></a></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-work-dark.svg">
   <img src="assets/h-work-light.svg" width="100%" alt="02 — Selected work">
 </picture>
 
-<a href="https://github.com/Mr-Macharia/mpesa-daraja-skills-and-mcp"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-mpesa-dark.svg">
-  <img src="assets/card-mpesa-light.svg" width="100%" alt="M-Pesa Daraja Agent Kit — Agent Skills and an MCP server for Safaricom's Daraja API">
-</picture></a>
+<p align="center"><a href="https://github.com/Mr-Macharia/mpesa-daraja-skills-and-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-mpesa-dark.svg"><img src="assets/card-mpesa-light.svg" width="100%" alt="M-Pesa Daraja Agent Kit — Agent Skills and an MCP server for Safaricom's Daraja API"></picture></a></p>
 
 <p align="right"><a href="https://github.com/Mr-Macharia/mpesa-daraja-skills-and-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-code-dark.svg"><img src="assets/link-code-light.svg" alt="Code"></picture></a>&nbsp;<a href="https://pypi.org/project/mpesa-daraja-mcp/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-pypi-dark.svg"><img src="assets/link-pypi-light.svg" alt="PyPI"></picture></a></p>
 
@@ -37,10 +36,7 @@
 
 <p align="right"><a href="https://github.com/Mr-Macharia/whatsapp-ai-assistant"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-whatsapp-code-dark.svg"><img src="assets/link-whatsapp-code-light.svg" alt="WhatsApp AI — Code"></picture></a>&nbsp;<a href="https://voice-agent.gichogumacharia.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-voice-demo-dark.svg"><img src="assets/link-voice-demo-light.svg" alt="Voice Agent — Live demo"></picture></a>&nbsp;<a href="https://github.com/Mr-Macharia/Website-Voice-Agent"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-voice-code-dark.svg"><img src="assets/link-voice-code-light.svg" alt="Voice Agent — Code"></picture></a></p>
 
-<a href="https://github.com/Mr-Macharia/medical-insurance-project"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-medical-dark.svg">
-  <img src="assets/card-medical-light.svg" width="100%" alt="Medical Insurance Copilot — AI-native analysis of a 96,639-member health portfolio">
-</picture></a>
+<p align="center"><a href="https://github.com/Mr-Macharia/medical-insurance-project"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-medical-dark.svg"><img src="assets/card-medical-light.svg" width="100%" alt="Medical Insurance Copilot — AI-native analysis of a 96,639-member health portfolio"></picture></a></p>
 
 <p align="right"><a href="https://github.com/Mr-Macharia/medical-insurance-project"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-code-dark.svg"><img src="assets/link-code-light.svg" alt="Code"></picture></a></p>
 
@@ -57,7 +53,8 @@
 
 <br>
 
-<a name="stack"></a>
+<p><a name="stack"></a></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-stack-dark.svg">
   <img src="assets/h-stack-light.svg" width="100%" alt="03 — Stack">
@@ -70,7 +67,8 @@
 
 <br><br>
 
-<a name="now"></a>
+<p><a name="now"></a></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-now-dark.svg">
   <img src="assets/h-now-light.svg" width="100%" alt="04 — Now">
@@ -105,7 +103,8 @@
 
 <br><br>
 
-<a name="contact"></a>
+<p><a name="contact"></a></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-contact-dark.svg">
   <img src="assets/h-contact-light.svg" width="100%" alt="06 — Contact">
