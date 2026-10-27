@@ -85,8 +85,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mr-Macharia/Mr-Macharia/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Mr-Macharia/Mr-Macharia/output/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+  <img src="assets/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake">
 </picture>
 
 <br><br>
