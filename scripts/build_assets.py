@@ -99,7 +99,7 @@ QUOTE = {
     "tag": "Build AI to fill gaps in human capacity, not to create gaps in human livelihoods.",
 }
 
-CONTACT_BTNS = [("email", "Email", "ai@gichogumacharia.tech"),
+CONTACT_BTNS = [("email", "Email", "gichogumacharia@gichainexus.co.ke"),
                 ("portfolio", "Portfolio", "gichogumacharia.tech"),
                 ("nexus", "GichAINexus", "gichainexus.co.ke"),
                 ("linkedin", "LinkedIn", "in/gichogu-macharia")]
@@ -432,7 +432,7 @@ def button(key, label, sub, t):
          f'<rect x="14" y="14" width="36" height="36" rx="9" fill="{t["accent2"]}" fill-opacity=".12" stroke="{t["accent2"]}" stroke-opacity=".4"/>',
          icon(key, 23, 23, t["accent"], size=18, sw=2),
          f'<text x="62" y="30" font-size="15" font-weight="700" fill="{t["text"]}">{esc(label)}</text>',
-         f'<text class="mono" x="62" y="48" font-size="10.5" fill="{t["muted"]}">{esc(sub)}</text>',
+         f'<text class="mono" x="62" y="48" font-size="{min(10.5, round(170 / (len(sub) * 0.6), 1))}" fill="{t["muted"]}">{esc(sub)}</text>',
          f'<path d="M{w - 30} 26l6 6-6 6" fill="none" stroke="{t["accent"]}" stroke-width="2" stroke-linecap="round"/>']
     return svg(w, h, "\n".join(b), t, ICON_CSS, f"{label}: {sub}")
 
